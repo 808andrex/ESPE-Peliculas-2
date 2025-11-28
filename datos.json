@@ -1,0 +1,10 @@
+[
+{
+ "tipo": "Pelicula",
+ "titulo": "Titanic",
+ "genero": "Romance",
+ "duracion": 195,
+ "calificacion": 4.5,
+ "ganoOscar": true
+}
+]
