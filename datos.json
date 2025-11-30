@@ -1,10 +1,18 @@
 [
 {
- "tipo": "Pelicula",
- "titulo": "Titanic",
- "genero": "Romance",
- "duracion": 195,
- "calificacion": 4.5,
- "ganoOscar": true
+"tipo": "Serie", 
+"titulo": "Titanic",
+"genero": "ROMANCE", 
+"duration": 195,
+"calificacion": 4.9,
+"Gano Oscar": true,
+},
+{
+"tipo": "Serie", 
+"titulo": "Spiderman",
+"genero": "CIENCIA_FICCION", 
+"duration": 180,
+"calificacion": 4.1,
+"Gano Oscar": false,
 }
 ]

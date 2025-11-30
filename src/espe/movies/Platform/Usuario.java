@@ -1,6 +1,6 @@
-package espe.movies.Plataforma;
+package espe.movies.Platform;
 
-import espe.movies.Contenidos.Contenido;
+import espe.movies.Contents.Contenido;
 
 import java.time.LocalDateTime;
 
@@ -12,7 +12,7 @@ public class Usuario {
     public Usuario(String nombre, String correo) {
         this.nombre = nombre;
         this.correo=correo;
-        this.fechaRegistro= LocalDateTime.now();
+        this.fechaRegistro = LocalDateTime.now();
     }
 
     public void ver(Contenido video){
@@ -22,27 +22,16 @@ public class Usuario {
     }
 
     /** GETTERS Y SETTERS */
-    public String getNombre() {
+    public String getName() {
         return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
     }
 
     public String getCorreo() {
         return correo;
     }
 
-    public void setCorreo(String correo) {
-        this.correo = correo;
-    }
-
     public LocalDateTime getFechaRegistro() {
         return fechaRegistro;
     }
 
-    public void setFechaRegistro(LocalDateTime fechaRegistro) {
-        this.fechaRegistro = fechaRegistro;
-    }
 }
